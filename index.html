@@ -4,36 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lotecaria simulador de loterica</title>
+    <title>loterikamy-Simulador de Loteria</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
-    <h1>lotecaria</h1>
-    <h3>simulador de loterica</h3>
+<h1>LoteriKamy</h1>
+<h3>Simulador de Loteria </h3>
 </header>
+<div class="numeros ">
+    <input type="number" id="num1" onchange="getNum(value,1)">
+    <input type="number" id="num2"onchange="getNum(value,3)">
+    <input type="number" id="num3"onchange="getNum(value,4)">
+    <input type="number" id="num4"onchange="getNum(value,5)">
+    <input type="number" id="num5"onchange="getNum(value,6)">
+    
 
-<div class= "numeros">
-    <input type=" number" id= "num1" oncheng="getNum(value,1)">
-    <input type=" number" id= "num2" oncheng="getNum(value,2)"> 
-    <input type=" number" id= "num3" oncheng="getNum(value,3)">
-    <input type=" number" id= "num4" oncheng="getNum(value,4)">
-    <input type=" number" id= "num5" oncheng="getNum(value,5)">
-    <input type=" number" id= "num6" oncheng="getNum(value,6)">
 
 </div>
 
 <div class="sorteio">
-    <button class="btnsort" onclick="sorteioNum()">sortear</button>
-    <p ide="numSort"></p>
-
+  <button class="btnsort" onclick ="sorteioNum()">Sortear</button> 
+  <p id="numsort"></p>
 </div>
 
-<div class="verificacao">
-
-    <p> total de acertos foi: <span id="total">  </span></p>
+<div class="vericacao">
+<p>Total de acertos foi:<span id="total "></span> </p> 
 </div>
-<script src="funcoes.js"></script>
 
+<script src ="funcoes.js"></script>
 </body>
 </html>
