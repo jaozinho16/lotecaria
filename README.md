@@ -19,3 +19,20 @@ simulador de loteria que o usuario escolhe seis numeros e o programa sorteia out
 | Tela inicial | Primeira roda |
 |--------------|---------------|
 |imagem 1      | imagem 2      |
+
+
+
+```
+function verificaAcertos() {
+  let cont = 0
+  numDigitados.forEach(function (valor, index) {
+    if (numSort.includes(valor)) {
+      cont = cont + 1
+    }
+
+
+  })
+  document.getElementById("total").innerText = cont
+  
+}
+```
