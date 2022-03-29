@@ -18,7 +18,7 @@ simulador de loteria que o usuario escolhe seis numeros e o programa sorteia out
 
 | Tela inicial | Primeira roda |
 |--------------|---------------|
-|imagem 1      | imagem 2      |
+| ![Tela inicial do site](/img/tela1.png)      | ![Tela preenchida site](/img/tela2.png)      |
 
 
 
